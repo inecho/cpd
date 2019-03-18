@@ -90,12 +90,12 @@ endif()
 
 
 # Tests
-option(WITH_TESTS "Build test suite" ON)
-if(WITH_TESTS)
-    enable_testing()
-    add_subdirectory("${PROJECT_SOURCE_DIR}/vendor/googletest-release-1.8.0/googletest")
-    add_subdirectory(tests)
-endif()
+# option(WITH_TESTS "Build test suite" ON)
+# if(WITH_TESTS)
+#     enable_testing()
+#     add_subdirectory("${PROJECT_SOURCE_DIR}/vendor/googletest-release-1.8.0/googletest")
+#     add_subdirectory(tests)
+# endif()
 
 
 # Install
